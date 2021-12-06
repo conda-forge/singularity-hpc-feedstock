@@ -143,4 +143,5 @@ Feedstock Maintainers
 =====================
 
 * [@ngam](https://github.com/ngam/)
+* [@vsoch](https://github.com/vsoch/)
 
