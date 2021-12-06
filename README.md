@@ -1,7 +1,7 @@
 About singularity-hpc
 =====================
 
-Home: singularity-hpc.readthedocs.io
+Home: https://singularity-hpc.readthedocs.io
 
 Package license: MPL-2.0
 
@@ -14,22 +14,20 @@ Development: https://singularity-hpc.readthedocs.io/en/latest/getting_started/de
 Documentation: https://singularity-hpc.readthedocs.io/en/latest/index.html
 
 Singularity Registry HPC (shpc) allows you to install containers as modules.
-Currently, this includes:
- Lmod
- Environment Modules
+Currently, this includes: Lmod and Environment Modules.
 
 And container technologies:
-  Singularity
-  Podman
-  Docker
+  Singularity,
+  Podman, and
+  Docker.
 
 And coming soon:
-  Shifter
-  Sarus
+  Shifter and
+  Sarus.
 
 You can use shpc if you are:
-  a linux administrator wanting to manage containers as modules for your cluster
-  a cluster user that wants to maintain your own folder of custom modules
+  a linux administrator wanting to manage containers as modules for your cluster,
+  a cluster user that wants to maintain your own folder of custom modules, or
   a cluster user that simply wants to pull Singularity images as GitHub packages.
 
 The library contains a collection of module recipes that will install containers,
