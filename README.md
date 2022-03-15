@@ -5,7 +5,7 @@ Home: https://singularity-hpc.readthedocs.io
 
 Package license: MPL-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/singularity-hpc-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/singularity-hpc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Local filesystem registry for containers (intended for HPC) using Lmod or Environement Modules. Works for users and admins.
 
@@ -41,8 +41,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14718&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/singularity-hpc-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14718&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/singularity-hpc-feedstock?branchName=main">
       </a>
     </td>
   </tr>
