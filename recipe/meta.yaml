@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - shpc = shpc.client:run_shpc
@@ -22,7 +22,10 @@ requirements:
     - spython >=0.1.13
     - jinja2
     - jsonschema
+    - ruamel
     - ruamel.yaml
+    - ruamel_yaml
+    - requests
     - pytest-runner
     - pytest =>4.6.2
   run:
