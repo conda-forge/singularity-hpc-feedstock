@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - shpc = shpc.client:run_shpc
@@ -19,17 +19,21 @@ requirements:
   host:
     - python >=3.6
     - pip
-    - spython >=0.1.13
+    - spython >=0.2.0
     - jinja2
     - jsonschema
-    - ruamel
     - ruamel.yaml
-    - ruamel_yaml
     - requests
     - pytest-runner
     - pytest =>4.6.2
   run:
     - python >=3.6
+    - ruamel.yaml
+    - jinja2
+    - jsonschema
+    - requests
+    - spython >=0.2.0
+
 
 test:
   source_files:
@@ -37,11 +41,9 @@ test:
     - shpc/tests
   requires:
     - pytest
-    - ruamel.yaml
-    - jsonschema
-    - jinja2
   commands:
     - shpc --help
+    - shpc config get module_base
 
 about:
   home: https://singularity-hpc.readthedocs.io
