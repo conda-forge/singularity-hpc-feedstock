@@ -42,6 +42,7 @@ test:
     - jinja2
   commands:
     - shpc --help
+    - shpc config get module_base
 
 about:
   home: https://singularity-hpc.readthedocs.io
