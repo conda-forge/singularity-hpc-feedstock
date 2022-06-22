@@ -1,4 +1,4 @@
-{% set version = "0.0.53" %}
+{% set version = "0.0.54" %}
 
 package:
   name: singularity-hpc
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/singularityhub/singularity-hpc/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 76fb173ce291eb4c029dc87f17b7d84beaa1166f861edceb03ac45da4d96767a
+  sha256: 1a4cce02d8aa1aef0d7aba22e1f37039099c2b5782b33b79ff52ab79c378b546
 
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - shpc = shpc.client:run_shpc
