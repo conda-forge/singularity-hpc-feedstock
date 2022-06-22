@@ -41,9 +41,11 @@ test:
     - shpc/tests
   requires:
     - pytest
+    - pip
   commands:
     - shpc --help
     - shpc config get module_base
+    - pip check
 
 about:
   home: https://singularity-hpc.readthedocs.io
