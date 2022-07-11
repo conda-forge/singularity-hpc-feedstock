@@ -1,4 +1,4 @@
-{% set version = "0.0.56" %}
+{% set version = "0.0.57" %}
 
 package:
   name: singularity-hpc
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/singularityhub/singularity-hpc/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 812c16589e800f203d94309e46d6629b228ea19d3dfd3f54b8339b4b32afbd39
+  sha256: 4a09afd9fc5682fa101d3dc7dabd3309018b0f0b42acc8fb78e2162fcef3ad9b
 
 
 build:
