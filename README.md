@@ -1,11 +1,11 @@
-About singularity-hpc
-=====================
+About singularity-hpc-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/singularity-hpc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://singularity-hpc.readthedocs.io
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/singularity-hpc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Local filesystem registry for containers (intended for HPC) using Lmod or Environement Modules. Works for users and admins.
 
